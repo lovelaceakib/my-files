@@ -1,0 +1,889 @@
+Html 
+
+<!doctype html>
+im making a document for the course to see what i have done past days 
+<html>
+<body>
+<h1>first heading</h1>
+<h2>second heading</h2>
+h stands for heading
+<p>
+this is a test paragraph 
+this is a new line 
+<p/>
+now i will note how to share links
+<a href="http://google.com"> click this link<a/>
+
+<> start  </> end 
+ 
+;; formatting text;;;
+ 
+ <b makes word bold </b>
+ <br> breaks the line</br>
+ <em> makes words italic</em>  or <it>....</it>
+ <mark> marks the sentence</mark>
+ <del> cuts the line </del>
+ <ins> inserts below line</ins>
+
+;; subscriptions;;;
+
+<sub>....</sub> makes numbers below number 
+<sup> makes number upper </sup>
+
+;; background color;;;
+
+<h1 style:color:blue;background-color:red;> this changes the background color</h1>
+
+;; comments in html ;;;
+
+<!any commemts.> this dosent shows on web page it used to hide a code 
+
+;;; links;;
+
+<href='https://google>com"target="block">
+<href='mailto:anyany@gmail.com> send me an email
+
+;; title favicons;;;
+<head>
+<title>any thing you like</title>
+its for the title of the website 
+<link rel="icon"
+href="paste logo link'> 
+</head>
+ 
+ ;;table;;;
+ 
+ <tr> table row</tr>
+ <td> table data</td>
+ if we want to make multiple row we have make the amount of codes for the row 
+ its same for the table data
+ 
+ ;;lists;;
+ 
+ <ul> gives dots 
+ <li> name 1</li>
+ </ul>
+ <ol>
+ <li>name1</li> makes number 
+ </ol>
+ 
+ ;;description;;
+ 
+ <dl>
+ <dt> name1</dt> i have understand this part
+ <dd> this is a first time for me </dd>
+ 
+ <dd> this is a first name </dd>
+ </dd>
+ 
+ 
+ <div>....</div> block elements
+ <div style="color:green;background-color:blue>
+ 
+ ;;iframe;;
+ 
+ iframe gives height or lenghts of information
+ <iframe src="https://google.com"height="100"></iframe>
+  
+  those are the lessons ive got next i will note more
+  
+  ::;; forms in html;;;
+  
+  its like we  fill a form in websites and submit it now we will see how to do it 
+  
+<body>
+<form>
+<label for="username">first name </label>
+<br> breaks the line as we know
+<input type="text" name="username" id="username">
+</form>
+we can add anything in the place of text we can add chackbox radio number anything suits the form
+
+;;submit;;
+
+<input type="submit" value="send"> you can add aything that suits in the place of send
+<form action="from.html> it will submit the form to index.html>
+
+i will note the setting us later
+
+icons;;
+
+icnos on css we need to paste a link for this 
+<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=material+icons">
+    
+      <i class="material-icons">computer</i>
+  <i class="material-icons">traffic</i>
+  it adds the icnos of the element
+  
+  tables;;
+  tables have both works on html and css 
+  
+  to make a table and style it we need both 
+ body>
+<table> 
+  <tr>
+    <th> name</th>
+    <th>age</th>
+    
+  </tr>
+  <td>akib</td>
+  <td>17</td>
+  <tr>
+    <td>sakib</td>
+    <td>18</td>
+  </tr>
+</table>
+
+dropdownbutton;;
+
+for making a drop down button we have to add 
+<body>
+  <div class="dropdown">
+<button class="dropdownbutton">Dropdown Button</button>
+<div class="dropdown-menu">
+<a href="#">list</a>
+  <a href="#">list</a>
+  <a href="#">list</a>
+  <a href="#">list</a>
+</div>
+now we have to add on css
+
+;;how to show input in javascrpit;;
+
+<body>
+<script>
+document.write("we have to add qoutation or double qoutation must in order to make a string but number dosent needs qoutations);
+or we can do console.log(anything);
+</scrpit>
+</body>
+
+how to add html in javascript;;
+
+<body>
+
+<script>
+
+alert("hello"); it is internal javascript
+</script>
+</body>
+we will see hwo to use external
+we have to go on javascript file
+we need to add javascript on html 
+<script src="program6.js"> </script> now what we will do in javascript it wil show on web results
+
+comments in javascript;;
+
+<script>
+
+document.write("akib </br>); to break line
+</script>
+
+letter grade program;;
+
+//letter grade
+
+var marks = prompt("Enter your marks");
+if(marls>=80)
+    console.log("A+");
+
+    if(marls>=70)
+    console.log("A");
+
+    else if(marls>=60)
+    console.log("A-");
+
+    else if(marls>=50)
+    console.log("B");
+
+    else if(marls>=40)
+    console.log("C");
+
+    else if(marls>=33)
+    console.log("D");
+
+    else 
+    console.log("Fail");
+it will make the grande based on marks
+
+the avarage marks
+
+//letter grade
+
+var marks = prompt("Enter your marks : ");
+if(marks>=80 && marks<=100)
+    console.log("A+");
+
+    if(marks>=70 && marks<=79)
+    console.log("A");
+
+    else if(marks>=60 && marks<=69)
+    console.log("A-");
+
+    else if(marks>=50 && marks<=59)
+    console.log("B");
+
+    else if(marks>=40 && marks<=49)
+    console.log("C");
+
+    else if(marks>=33 && marks<=39)
+    console.log("D");
+
+    else 
+    console.log("Fail");
+    
+    
+
+Css
+;;css;;
+
+CSS stands for cascading style sheets. it allows you  to add styling to your html page .
+now we will add html with css 
+we are using replit.com for this whole course. so it makes a tab  called style css
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+<title> my page </title>
+    <link rel="stylesheet" href="style.css"> it connects html with css 
+
+    
+  </head>
+</html>
+
+;;tab css;;
+
+body{
+background-color: green;
+  
+}
+
+;;comments in css;;
+
+/* comment haha
+yeah fine 
+something more */
+body {
+  background-color: green;
+}
+a bit confusing for me 
+
+;; selectors of css ;;
+style,csstab
+h1{
+background-color;blue
+}
+heading{ this means the writings
+color:yellow;
+}
+*{} universal selectors
+
+;; backgrounds ;;
+
+height and width
+h1 {
+height: 60px;
+  width: 50%;
+  background-color: purple;
+  
+}
+** it gives gap between elements of website
+the height is like a particular element 
+the width will reduce the height
+
+outlines;;
+
+h1 {
+border: 6px dashed green;
+  outline-style: solid;
+  outline-offset: 10px;
+}
+
+we got knowledge about background color now we will see more exciting and advanced way of background colors
+background-color:0.9
+
+setting up background image 
+
+background-image: url("https://th.bing.com/th/id/OIP.54pWJhhoyUxVcddV8yThRwHaEo?pid=ImgDet&rs=1")
+}
+heading colors;;
+h1, p {
+  color:white;
+}
+
+margins;;
+
+{
+ 
+}
+b{
+  margin-top: 60px;
+}
+p {
+margin-top:inherit 
+}
+it makes the bottom  of the margin copy from top of it .
+
+border;;
+
+border is like a wrapper in elements 
+h1/p1/anythhing that contains the file of html tab
+h1{ border-style:dotted/solid;/groove;/dashed;/outset;/inset;/none;/hiden; anything you can add
+now if we want to make a square wiht multiple types of borders 
+border-style:dash double dotted solid;
+border-width:10px; it makes the border thick or thin 
+
+now if we want to make the borders thick or thin in multiple sides with short cut
+border-width:10px 20px 5px 11px 22px;
+border-color:purple or any color;
+
+  different borders;;
+  
+  h1{
+  border-top-style-:dashed;
+  border-right-style:dotted;
+  boder-bottom-style:dashed
+  border-left-style:botted
+  short cut if we want to add multiple border
+  border-style: dashed dotted dotted groove;
+  
+  now if we want a border not like square like rounded in sides 
+  h1{
+  border-bottom:any sides; any style
+  color of border
+  10px dashed purple;
+  border rounded
+  border-radious:4px
+  
+  padding;;
+  
+  the padding is like creating a space around an element or text inside any border
+  
+ padding-top:40px;
+ padding-left:40ox
+ padding-bottom:40px
+ short cut
+ padding:40px 20px 20px 10px
+ that is it for today
+ 
+ height and width;;;
+ 
+ it gives a height between the words of website .
+ the height is like distance around in a particular element 
+ h1{
+ height:60px;
+ }
+ width:90px; or we can say width 100%
+ 
+ outlines;;
+ 
+ it makes element standard 
+ h1{
+ outline-style:20px dashed green;
+ outline-style:solid
+ outline-offset:10 px that means we want want a space between outlines and border
+ 
+ text;;
+ 
+text alignment 
+
+h1 {
+text-align: justify;
+} it makes the same difference between elemets 
+h1 {
+text-align-last: center;
+} it makes last element at center
+
+text decoration ;;
+h1 {
+text-decoration-line:underline overline;
+  text-decoration-color: blue;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 90px;
+}
+short cut
+
+text-decoration:overline purple solid 10px;
+h1, a, p {
+text-transform: capitalize;
+}
+it will make all the first letter capital
+
+letter spacing ;;
+
+h1, a, p {
+text-indent: 30px; it makes gap in front of letters
+  letter-spacing: 30px;
+}
+
+font;;
+
+h1, p {
+/* font-family: "lucida console" , "courier new " , monospace; */
+  font-style: oblique;
+}
+font style names and the style of it.
+
+icon;;
+cnos on css we need to paste a link for this 
+<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=material+icons">
+    
+      <i class="material-icons">computer</i>
+  <i class="material-icons">traffic</i>
+  it adds the icnos of the element
+  we need to do it on html 
+  
+  tables;;
+  table, th,td {
+  border: 2px solid;
+width:50%;
+  border-collapse: collapse;
+  }
+th ,td{
+text-align: center;
+  padding: 10px;
+  
+}
+tr:hover {
+  background-color: blue;
+}
+we need to do it on css 
+
+
+dropdown menu';;
+to make a good dropdown menu we should add:;;
+
+.dropdownbutton {
+background-color: blue;
+  color: white;
+  padding: 13px;
+  font-size: 16px;
+  border:none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display:inline-block;
+}
+.dropdown-menu {
+display:none;
+  position:absolute;
+  background-color:lightblue;
+  min-width: 150px;
+}
+
+.dropdown-menu a {
+color:black;
+  padding
+    : 11px 15px;
+  text-decoration:none;
+  display:block;
+    
+}
+
+.dropdown-menu a:hover{
+background-color: white;
+
+
+  
+}
+.dropdown:hover .dropdown-menu {
+display: block;
+  
+}
+
+.dropdown:hover .dropdownbutton {
+background-color:grey;
+  
+}
+
+attribute selectors;;
+
+
+
+Javascript
+
+javascript 
+this is the most important part for us to make a website from using html css 
+
+how to show ooutput in js;;
+
+we will code in visual studio code 
+
+alert("hello");
+we dont have add scrpit code 
+
+keywprd datatype and comment ;;
+we have to do it on html file
+
+number method ;;
+
+first we will add javascript on html 
+ number converts string and data types on number 
+ console.log(typeof(number("12.5"))) 
+ 
+ concreate strings ;;
+ 
+ <script>
+var num1 = 20;
+var num2 = 30;
+document.write("num1 = " + num1 + "num2 = " + num2)
+
+</script>
+
+how to find string length ;;
+
+<script>
+var text = "Bangladesh"
+var len = text.lenght 
+document.write("number of character" + text.length);
+</script>
+
+prompt;;
+
+<script>
+var text = prompt("enter your name :  ");
+document.write("number of character" + text.length);
+</script>
+
+make your own calculator ;;
+
+addition and substraction
+
+<script>
+var num1 = 20;
+var num2 = 10;
+sum = num1 + num2;
+  document.write("sum = "+ sum + "<br/>");
+  
+  sub = num1 - num2;
+  document.write("sub = "+ sub);
+</script>
+
+area of various shapes ;;
+
+var base = parseFloat(prompt("Enter base = "));
+var height = parseFloat(prompt("Enter height = "));
+var area =  (base *  height) / 2
+document.write("Area = " + area);
+
+how to make temperature converter ;;
+
+var cels = parseFloat(prompt("Enter celsius = "));
+
+ var farn = (cels * (9/5))+32;
+document.write("fahrenheit = " + farn);
+
+or if else ;;
+
+it will show the real result of an input
+
+var num  = 5;
+
+if(num %2 == 0)
+console.log("Even");
+
+else
+console.log("Odd");
+
+we will see it on console 
+
+digit spelling;;
+
+//digit spelling
+// 0 - zero, 1 - one.....9 - Nine , 10 - Not a valid digit
+
+var digit = prompt("enter any digit : ");
+if(digit == 0)
+console.log("Zero");
+else if(digit == 1)
+console.log("One");
+if(digit == 2)
+console.log("Two");
+if(digit == 3)
+console.log("Three");
+if(digit == 4)
+console.log("Four");
+if(digit == 5)
+console.log("Five");
+if(digit == 6)
+console.log("Six");
+if(digit == 7)
+console.log("Seven");
+if(digit == 8)
+console.log("Eight");
+if(digit == 9)
+console.log("Nine");
+else
+console.log("Not a digit");
+
+
+selecting vowel and consunant in short cut way;;
+
+// task - 5 input a letter and check it out it is vowel or consunant
+var letter = prompt("Enter any letter : ");
+letter = letter.toLowerCase();
+
+switch (letter) {
+case "a":
+case "e":
+case "i":
+case "o":
+case "u":
+
+console.log("Vowel");
+break;
+
+default:
+console.log("consonant");
+
+
+
+
+}
+
+loop;
+
+loop makes any tasks easy like 
+//10 9 8 7 6 5 4 3 2 1
+for(var x= 10; x >= 1; x= x - 1)
+
+{
+
+
+document.write(" " + x);
+}
+document.write("<h1>End</h1>");
+
+in web result it will see like this 
+
+10 9 8 7 6 5 4 3 2 1
+END
+
+how to create substraction by calculating ;;;
+
+var num1 = parseInt(prompt("enter first number :"));
+var num2 = parseInt(prompt("enter second  number :"));
+var sum = num1 + num2
+document.write("Result = " + sum);
+
+
+how to use loop while in javascript ;;
+
+// showing the numbers from 1 to 100 that can be divided by 3 and 5 and the last of division will be 0
+
+var i = 1;
+var sum = 0;
+
+while(i<=100)
+{
+if(i%3==0 && i%5==0)
+{
+    document.write(" " +1);
+sum = sum + i ;
+
+}
+i = i+1
+}
+document.write( "sum = " + sum);
+document.write("<h1>end</h1>");
+
+do while loop ;;
+
+var i = 1
+
+do {
+
+document.write(" " + i);
+i++;
+}while(i<=100);
+
+
+Objects and adding functions inside a constructor
+
+//student details
+// object
+//adding function inside a contructor
+function Student(name,age ,cgpa,lang){
+this.name = name;
+this.age = age ;
+this.cgpa = cgpa;
+this.lang = lang;
+
+
+this.display = function (){
+    console.log(this.name);
+    console.log(this.age);
+    console.log(this.cgpa);
+    console.log(this.lang);
+
+
+}
+}
+
+
+var student1 = new Student ("Akib", 22,4.44, ["Bengali","Englaish","Urdu"]);
+var student3 = new Student ("Skib", 22,4.43, ["Bengali","Englaish","Spanish"]);
+var student1 = new Student ("Rakib", 22,4.45, ["Bengali","Englaish","Hindi"]);
+student1.display();
+
+New thing below;;
+
+//guessing game
+//Guess a number from 1 to 5
+// Generate a random number between 1 to 5
+//Run th e game for 5 times
+var numOfWon = 0;
+var numOFLost = 0;
+for(var i=1; i<+5; i++)
+{
+    var guessNumber = parseInt(prompt("Enter a number from 1 to 5 :"));
+    var randomNumber = Math.floor( Math.random()*5 ) + 1;
+   
+    if (guessNumber==randomNumber ){
+    console.log ("You have won ");
+    numOfWon++;
+    } else {
+    console.log("YOU have lost. Random number was" + randomNumber);
+    numOFLost++;
+    }
+
+
+}
+document.write(" Total Number of won =" + numOfWon + "<br>");
+document.write(" Total Number of lost =" + numOFLost + "<br>");
+
+
+Date method 
+
+var date = new Date();
+console.log(date)
+
+
+var year = date.getFullYear();
+console.log(year)
+
+
+var month = date.getMonth();
+console.log(month)
+
+
+var currentDate = date.getdate();
+console.log(currentDate)
+
+
+var currentDay = date.getDay();
+console.log(currentDay)
+
+Query selector 
+
+We will write those on html 
+<body>
+<a href="#">Home </a>
+<ul>
+<li><a href="#">Tutorial</a></li>
+<li>Bangladesh</li>
+</ul>
+<div class="my.div">
+  <a href="#"> contact</a>
+   </div>
+
+
+  <script src="index.js"></script>
+
+
+  </body>
+
+One click 
+After clicking on a button and after clicking on it , it will show something 
+We have to do in html 
+
+<body>
+<button oneclick ="myMessage1()">click me 1 </button>
+<button oneclick ="myMessage2()">click me2</button>
+
+
+<p id="paraid">demo</p>
+
+
+<script src="index.js">
+
+And on javascript we will code
+
+function myMessage1(){
+ var myvar = document.querySelector("#paraid");
+myvar.innerHTML = "you have clicked button 1"
+}
+function myMessage2(){
+   
+    var myvar = document.querySelector("#paraid");
+    myvar.innerHTML = "you have clicked button 2"
+}
+   
+
+
+Find, create,. add, remove 
+
+In html we will add 
+<a href="#">visit google </a>
+<div class="my-div" style="background-color: blue;">
+<h1>Hello</h1>
+<h1>good bye</h1>
+
+In js 
+//creating html element
+
+
+var heading3 = document.createElement("h1");
+var text = document.createTextNode("This is heaidng 3");
+
+
+heading3.appendChild(text);
+
+
+ var myDiv = document.getElementById("my-div");
+
+
+myDiv.appendChild(heading3);
+
+
+
+
+// add child on top from bottom
+
+
+var heading0 = document.createElement("h1");
+var text0 = document.createTextNode("This is heaidng 3");
+heading0.appendChild(text0);
+
+
+var heading2 = document.getElementsByTagName("h1")[0];
+myDiv.insertBefore(heading0 , heading1);
+
+
+
+
+Image slider 
+
+On html we have to do
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<button onclick="prev()"> previous  </button>
+<img src="me.jpg" alt="" height="300" width="500">
+<button onclick="next()">next</button>
+
+
+    <script src="index.js"> </script>
+</body>
+</html>
+
+On js we have to do 
