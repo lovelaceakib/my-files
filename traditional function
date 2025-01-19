@@ -1,0 +1,30 @@
+//traditonal function 
+
+function addition(num1,num2){
+
+var result = num1 +num2;
+document.write("Sum ="+result + "</br>");
+}
+
+///subtraction
+
+function subtraction(num1,num2){
+
+    var result = num1 -num2;
+    document.write("Sub ="+result + "</br>");
+    }
+
+    function divition(num1,num2){
+        var result=num1/num2;
+        document.write("result =" + result + "</br>" );
+    }
+
+//calling a function
+
+
+addition(10,20);
+addition(20,30);
+subtraction(29,3);
+addition(29,4);
+divition(5,5)
+
